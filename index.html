@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Karteria — wytrwałość, która wraca codziennie</title>
+<meta name="description" content="Karteria to aplikacja na iPhone’a i Apple Watch: siłownia, tenis liczony na zegarku, plan dnia, gotowość z HRV i seria, która rośnie z każdym dniem. Wkrótce.">
+<meta name="theme-color" content="#0A0B0E">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://wrobhu.github.io/karteria/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:site_name" content="Karteria">
+<meta property="og:title" content="Karteria — wytrwałość, która wraca codziennie">
+<meta property="og:description" content="Siłownia, tenis, plan dnia i zdrowie w jednej aplikacji na iPhone’a i Apple Watch. Jeden mały krok dziennie — a seria rośnie.">
+<meta property="og:url" content="https://wrobhu.github.io/karteria/">
+<meta property="og:image" content="https://wrobhu.github.io/karteria/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Karteria: napis „Wytrwałość to wracanie — codziennie.” nad ciemną stroną aplikacji">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Karteria — wytrwałość, która wraca codziennie">
+<meta name="twitter:description" content="Siłownia, tenis, plan dnia i zdrowie na iPhone’a i Apple Watch. Wkrótce.">
+<meta name="twitter:image" content="https://wrobhu.github.io/karteria/assets/og.png">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" href="fonts/Inter-Var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script>(function(d){d.classList.add('js');if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;d.classList.add('motion');var n=performance.getEntriesByType&&performance.getEntriesByType('navigation')[0];if(!location.hash&&(!n||n.type==='navigate'))d.classList.add('intro');})(document.documentElement);</script>
+<script src="main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#tresc">Przejdź do treści</a>
+<div class="scene" id="top">
+  <!-- Kafelki logo unoszące się przy górnych rogach strony (jak w filmie) -->
+  <div class="ctile ctile-l" aria-hidden="true"><span class="tile"><i class="mark"></i></span></div>
+  <div class="ctile ctile-r" aria-hidden="true"><span class="tile"><i class="mark"></i></span></div>
+  <div class="drift drift-1" aria-hidden="true"><span class="tile"><i class="mark"></i></span></div>
+  <div class="drift drift-2" aria-hidden="true"><span class="tile"><i class="mark"></i></span></div>
+  <div class="page">
+<!-- Nawigacja -->
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top" aria-label="Karteria — na górę strony"><span class="tile"><i class="mark"></i></span>Karteria</a>
+    <nav class="nav-links" aria-label="Sekcje">
+      <a href="#silownia">Siłownia</a><a href="#tenis">Tenis</a><a href="#plan">Plan</a><a href="#zdrowie">Zdrowie</a><a href="#seria">Seria</a><a href="#nazwa">O nazwie</a>
+    </nav>
+    <a class="nav-cta" href="#film-card"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>Zobacz film</a>
+    <details class="menu">
+      <summary aria-label="Menu"><span class="burger"><i></i><i></i></span><span class="menu-t">Menu</span></summary>
+      <nav class="menu-panel" aria-label="Sekcje (menu)">
+        <a href="#silownia">Siłownia</a><a href="#tenis">Tenis</a><a href="#plan">Plan</a><a href="#zdrowie">Zdrowie</a><a href="#seria">Seria i misje</a><a href="#nazwa">O nazwie</a><a href="#pytania">Pytania</a><a href="#film-card" class="hl">Zobacz film</a>
+      </nav>
+    </details>
+  </div>
+</header>
+<main id="tresc" tabindex="-1">
+<!-- Hero -->
+<section class="hero" id="hero" aria-labelledby="hero-h">
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="kicker"><i aria-hidden="true"></i>IPHONE · APPLE WATCH</p>
+      <h1 class="h1" id="hero-h">Wytrwałość,<br>która wraca<br><span class="soft">codziennie.</span></h1>
+      <p class="sub">Siłownia, tenis, plan dnia i zdrowie w jednej aplikacji. <b>Jeden mały krok dziennie</b> — a seria rośnie.</p>
+      <div class="cta-row">
+        <a class="btn" href="#film-card"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>Zobacz film</a>
+        <a class="btn-ghost" href="#silownia">Co potrafi<svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+      <div class="soon">
+        <span class="tile soon-tile" aria-hidden="true"><i class="mark"></i></span>
+        <span>Wkrótce na iPhone’a i Apple Watch.<br><em>Jeszcze nie ma jej w App Store.</em></span>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="devices stage" data-tilt="hero" role="img" aria-label="Ekran Dziś w Karterii na iPhonie: kroki 8 420, obciążenie 13,9, gotowość 73%, seria 12 dni i misje dnia. Obok Apple Watch liczący mecz tenisa: 40 do 30, piłka setowa.">
+        <div class="lift dev-phone" style="--z:36;--i:0;--r:60px"><div class="phone">
+  <i class="btn-side" style="left:-2px;top:150px;height:30px"></i>
+  <i class="btn-side" style="left:-2px;top:200px;height:56px"></i>
+  <i class="btn-side" style="left:-2px;top:268px;height:56px"></i>
+  <i class="btn-side" style="right:-2px;top:226px;height:88px"></i>
+  <div class="screen">
+    <div class="status"><span>9:41</span><span class="r"><svg aria-hidden="true" focusable="false" width="17" height="11" viewBox="0 0 17 11"><rect x="0" y="7" width="3" height="4" rx="1" fill="#F3F5F8"/><rect x="4.6" y="5" width="3" height="6" rx="1" fill="#F3F5F8"/><rect x="9.2" y="2.5" width="3" height="8.5" rx="1" fill="#F3F5F8"/><rect x="13.8" y="0" width="3" height="11" rx="1" fill="#F3F5F8"/></svg>
+  <svg aria-hidden="true" focusable="false" width="15" height="11" viewBox="0 0 24 17"><path d="M1.5 5.5a15 15 0 0 1 21 0M5 9a10 10 0 0 1 14 0M8.5 12.5a5 5 0 0 1 7 0" fill="none" stroke="#F3F5F8" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="15.3" r="1.7" fill="#F3F5F8"/></svg>
+  <svg aria-hidden="true" focusable="false" width="25" height="12" viewBox="0 0 25 12"><rect x="0.5" y="0.5" width="21" height="11" rx="3.5" fill="none" stroke="rgba(243,245,248,0.45)"/><rect x="2" y="2" width="16" height="8" rx="2" fill="#F3F5F8"/><path d="M23 4v4" stroke="rgba(243,245,248,0.45)" stroke-width="1.5" stroke-linecap="round"/></svg></span></div>
+    <div class="island"></div>
+    <div class="scr scr-head">
+      <div><small>ŚRODA, 28 PAŹDZIERNIKA</small><p class="t">Dziś</p></div>
+      <div class="streak-pill"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="15" height="15" style="color:#6BB3FF"><path d="M12 2.5c1.2 3.2 4.8 5.4 4.8 9.7a4.8 4.8 0 0 1-9.6 0c0-1.7.6-2.9 1.5-3.9.2 1.3.9 2.2 1.9 2.5-.5-2.3.2-5.2 1.4-8.3z" fill="currentColor"/></svg>12</div>
+    </div>
+    <div class="scr pcard dials">
+      <div class="dial"><svg aria-hidden="true" focusable="false" width="78" height="78" viewBox="0 0 78 78"><defs><linearGradient id="rg451303" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B8DBFF"/><stop offset="1" stop-color="#6BB3FF"/></linearGradient></defs><circle cx="39" cy="39" r="35.5" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="7"/><circle cx="39" cy="39" r="35.5" fill="none" stroke="url(#rg451303)" stroke-width="7" stroke-linecap="round" pathLength="100" stroke-dasharray="84.00 100" transform="rotate(-90 39 39)"/></svg><b>8&nbsp;420</b><span>KROKI</span></div>
+      <div class="dial"><svg aria-hidden="true" focusable="false" width="78" height="78" viewBox="0 0 78 78"><defs><linearGradient id="rg446702" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6BB3FF"/><stop offset="1" stop-color="#3D7DFF"/></linearGradient></defs><circle cx="39" cy="39" r="35.5" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="7"/><circle cx="39" cy="39" r="35.5" fill="none" stroke="url(#rg446702)" stroke-width="7" stroke-linecap="round" pathLength="100" stroke-dasharray="66.00 100" transform="rotate(-90 39 39)"/></svg><b>13,9</b><span>OBCIĄŻENIE</span></div>
+      <div class="dial"><svg aria-hidden="true" focusable="false" width="78" height="78" viewBox="0 0 78 78"><defs><linearGradient id="rg564526" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#B8DBFF"/></linearGradient></defs><circle cx="39" cy="39" r="35.5" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="7"/><circle cx="39" cy="39" r="35.5" fill="none" stroke="url(#rg564526)" stroke-width="7" stroke-linecap="round" pathLength="100" stroke-dasharray="73.00 100" transform="rotate(-90 39 39)"/></svg><b>73%</b><span>GOTOWOŚĆ</span></div>
+    </div>
+    <div class="scr pcard pstreak">
+      <div class="prow"><span class="plabel">SERIA</span><span class="pval">12 dni</span></div>
+      <div class="week"><div class="wd on"><i><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Pn</div><div class="wd on"><i><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Wt</div><div class="wd today"><i><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" style="color:#6BB3FF"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Śr</div><div class="wd "><i></i>Cz</div><div class="wd "><i></i>Pt</div><div class="wd "><i></i>So</div><div class="wd "><i></i>Nd</div></div>
+    </div>
+    <div class="scr pcard pquests">
+      <div class="prow"><span class="plabel">MISJE DNIA</span><span class="pval">+40 XP</span></div>
+      <div class="q done"><span class="qi"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><rect x="2" y="9" width="3" height="6" rx="1" fill="currentColor"/><rect x="5" y="7" width="3" height="10" rx="1" fill="currentColor"/><rect x="16" y="7" width="3" height="10" rx="1" fill="currentColor"/><rect x="19" y="9" width="3" height="6" rx="1" fill="currentColor"/><rect x="8" y="10.5" width="8" height="3" fill="currentColor"/></svg></span><span class="qt">Zrób trening<small><i style="width:100%"></i></small></span><span class="qx">1/1</span></div>
+      <div class="q done"><span class="qi"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><circle cx="6" cy="7" r="3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="6" cy="17" r="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4.8 7l.9.9 1.6-1.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 7h9M12 17h9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span><span class="qt">Odhacz 2 rutyny<small><i style="width:100%"></i></small></span><span class="qx">2/2</span></div>
+      <div class="q"><span class="qi"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M12 3a3 3 0 0 1 3 3H9a3 3 0 0 1 3-3z" fill="currentColor"/><path d="M5 21l2-12h10l2 12z" fill="currentColor"/></svg></span><span class="qt">Zapisz wagę<small><i style="width:0%"></i></small></span><span class="qx">0/1</span></div>
+      <div class="qbonus">Zrób wszystkie trzy, a dostaniesz bonus +30 XP.</div>
+    </div>
+    <div class="tabbar">
+      <div class="tab on"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2.6" opacity=".35"/><path d="M12 4a8 8 0 1 1-7.6 10.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg>Dziś</div>
+      <div class="tab"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><rect x="2" y="9" width="3" height="6" rx="1" fill="currentColor"/><rect x="5" y="7" width="3" height="10" rx="1" fill="currentColor"/><rect x="16" y="7" width="3" height="10" rx="1" fill="currentColor"/><rect x="19" y="9" width="3" height="6" rx="1" fill="currentColor"/><rect x="8" y="10.5" width="8" height="3" fill="currentColor"/></svg>Trening</div>
+      <div class="tab"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><rect x="3" y="5" width="18" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 10h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>Plan</div>
+      <div class="tab"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M12 20.5s-7.5-4.6-7.5-10A4.3 4.3 0 0 1 12 8a4.3 4.3 0 0 1 7.5 2.5c0 5.4-7.5 10-7.5 10z" fill="currentColor"/></svg>Zdrowie</div>
+      <div class="tab"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><circle cx="12" cy="7.5" r="4" fill="currentColor"/><path d="M4 21c0-4.4 3.6-7.5 8-7.5s8 3.1 8 7.5z" fill="currentColor"/></svg>Ja</div>
+    </div>
+    <div class="homebar"></div>
+  </div>
+</div></div>
+        <div class="lift dev-watch" style="--z:44;--i:1;--r:54px"><div class="watch">
+  <i class="crown"></i><i class="sbtn"></i>
+  <div class="case"></div><div class="bez"></div>
+  <div class="wscreen">
+    <div class="wtop"><span>Set 2</span><b>10:09</b></div>
+    <div class="wscore">40<em>/</em>30</div>
+    <div class="wsp">Piłka setowa · Ja</div>
+    <div class="wgames"><span>6-2</span><span class="on">5-4</span></div>
+  </div>
+</div></div>
+        <div class="lift chip-l" style="--z:70;--i:2;--stand:22deg;--r:23px;left:6px;top:96px"><div class="chip"><span class="ci"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 2.5c1.2 3.2 4.8 5.4 4.8 9.7a4.8 4.8 0 0 1-9.6 0c0-1.7.6-2.9 1.5-3.9.2 1.3.9 2.2 1.9 2.5-.5-2.3.2-5.2 1.4-8.3z" fill="currentColor"/></svg></span>12 dni serii</div></div>
+        <div class="lift chip-l" style="--z:70;--i:3;--stand:22deg;--r:23px;left:462px;top:360px"><div class="chip"><span class="ci"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z" fill="currentColor"/></svg></span>+100 XP</div></div>
+        <div class="lift chip-l" style="--z:70;--i:4;--stand:22deg;--r:23px;left:404px;top:706px"><div class="chip"><span class="ci"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2.6" opacity=".35"/><path d="M12 4a8 8 0 1 1-7.6 10.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg></span>Gotowość 73%</div></div>
+      </div>
+    </div>
+    <ul class="hero-feats">
+      <li><a href="#silownia"><span class="ic"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><rect x="2" y="9" width="3" height="6" rx="1" fill="currentColor"/><rect x="5" y="7" width="3" height="10" rx="1" fill="currentColor"/><rect x="16" y="7" width="3" height="10" rx="1" fill="currentColor"/><rect x="19" y="9" width="3" height="6" rx="1" fill="currentColor"/><rect x="8" y="10.5" width="8" height="3" fill="currentColor"/></svg></span><span><b>Siłownia</b>Serie, ciężary i rekordy.</span></a></li>
+      <li><a href="#tenis"><span class="ic"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="currentColor"/><path d="M4.6 6.8c2.9 2.6 2.9 7.8 0 10.4M19.4 6.8c-2.9 2.6-2.9 7.8 0 10.4" fill="none" stroke="#0A0B0E" stroke-width="1.7" stroke-linecap="round" opacity="0.75"/></svg></span><span><b>Tenis</b>Wynik meczu z zegarka.</span></a></li>
+      <li><a href="#plan"><span class="ic"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><circle cx="6" cy="7" r="3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="6" cy="17" r="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4.8 7l.9.9 1.6-1.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 7h9M12 17h9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span><span><b>Plan</b>Rutyny, zadania i kalendarz.</span></a></li>
+      <li><a href="#zdrowie"><span class="ic"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 20.5s-7.5-4.6-7.5-10A4.3 4.3 0 0 1 12 8a4.3 4.3 0 0 1 7.5 2.5c0 5.4-7.5 10-7.5 10z" fill="currentColor"/></svg></span><span><b>Zdrowie</b>Gotowość, HRV i obciążenie.</span></a></li>
+    </ul>
+  </div>
+</section>
+<!-- Siłownia -->
+<section class="sec gym" id="silownia" aria-labelledby="gym-h">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow"><span class="ic"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><rect x="2" y="9" width="3" height="6" rx="1" fill="currentColor"/><rect x="5" y="7" width="3" height="10" rx="1" fill="currentColor"/><rect x="16" y="7" width="3" height="10" rx="1" fill="currentColor"/><rect x="19" y="9" width="3" height="6" rx="1" fill="currentColor"/><rect x="8" y="10.5" width="8" height="3" fill="currentColor"/></svg></span>SIŁOWNIA<em>01</em></p>
+        <h2 class="h2" id="gym-h">Każdy rekord<br>ma swoją historię.</h2>
+      </div>
+      <p class="lede">Zapisujesz serie i ciężary, a Karteria liczy objętość, pokazuje progres i <b>zaznacza każdy nowy rekord</b>.</p>
+    </div>
+    <div class="stage gym-stage" data-tilt role="img" aria-label="Przykładowe ekrany siłowni: objętość w październiku 48,3 tony z 12 treningów, martwy ciąg 5 serii po 3 powtórzenia ze 140 kg i lista rekordów osobistych.">
+      <div class="lift gym-photo" style="--z:40;--i:0;--stand:3deg"><div class="photo"><svg aria-hidden="true" focusable="false" viewBox="0 0 560 380" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="vbg" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#1C3566"/><stop offset="0.55" stop-color="#101A30"/><stop offset="1" stop-color="#0A0D14"/></linearGradient>
+    <radialGradient id="vspot" cx="0.78" cy="0.1" r="0.7"><stop offset="0" stop-color="#6BB3FF" stop-opacity="0.35"/><stop offset="1" stop-color="#6BB3FF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="vb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6BB3FF"/><stop offset="1" stop-color="#3D7DFF" stop-opacity="0.18"/></linearGradient>
+    <linearGradient id="vbL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="0.5" stop-color="#B8DBFF"/><stop offset="1" stop-color="#6BB3FF" stop-opacity="0.3"/></linearGradient>
+    <linearGradient id="vfade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0A0D14" stop-opacity="0"/><stop offset="1" stop-color="#0A0D14" stop-opacity="0.9"/></linearGradient>
+  </defs>
+  <rect width="560" height="380" fill="url(#vbg)"/><rect width="560" height="380" fill="url(#vspot)"/>
+  <line x1="30" x2="530" y1="262" y2="262" stroke="rgba(255,255,255,0.14)" stroke-width="1"/><line x1="30" x2="530" y1="202" y2="202" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><line x1="30" x2="530" y1="142" y2="142" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><line x1="30" x2="530" y1="82" y2="82" stroke="rgba(255,255,255,0.06)" stroke-width="1"/><rect x="34" y="200.1" width="20" height="61.9" rx="5" fill="url(#vb)"/><rect x="65.5" y="169.6" width="20" height="92.4" rx="5" fill="url(#vb)"/><rect x="96.9" y="194.9" width="20" height="67.1" rx="5" fill="url(#vb)"/><rect x="128.4" y="200" width="20" height="62" rx="5" fill="url(#vb)"/><rect x="159.9" y="161.9" width="20" height="100.1" rx="5" fill="url(#vb)"/><rect x="191.3" y="149.9" width="20" height="112.1" rx="5" fill="url(#vb)"/><rect x="222.8" y="177.3" width="20" height="84.7" rx="5" fill="url(#vb)"/><rect x="254.3" y="171.6" width="20" height="90.4" rx="5" fill="url(#vb)"/><rect x="285.7" y="132.5" width="20" height="129.5" rx="5" fill="url(#vb)"/><rect x="317.2" y="142" width="20" height="120" rx="5" fill="url(#vb)"/><rect x="348.7" y="159.7" width="20" height="102.3" rx="5" fill="url(#vb)"/><rect x="380.1" y="143.7" width="20" height="118.3" rx="5" fill="url(#vb)"/><rect x="411.6" y="103.6" width="20" height="158.4" rx="5" fill="url(#vb)"/><rect x="443.1" y="130.3" width="20" height="131.7" rx="5" fill="url(#vb)"/><rect x="474.5" y="145.5" width="20" height="116.5" rx="5" fill="url(#vb)"/><rect x="506" y="84" width="20" height="178" rx="5" fill="url(#vbL)"/>
+  <path d="M44 186.1C49.2 181 65 156.5 75.5 155.6C86 154.8 96.4 175.8 106.9 180.9C117.4 185.9 127.9 191.5 138.4 186C148.9 180.5 159.4 156.2 169.9 147.9C180.4 139.5 190.8 133.3 201.3 135.9C211.8 138.5 222.3 159.7 232.8 163.3C243.3 166.9 253.8 165 264.3 157.6C274.8 150.1 285.2 123.5 295.7 118.5C306.2 113.6 316.7 123.5 327.2 128C337.7 132.6 348.2 145.5 358.7 145.7C369.2 146 379.6 139.1 390.1 129.7C400.6 120.4 411.1 91.8 421.6 89.6C432.1 87.4 442.6 109.4 453.1 116.3C463.6 123.3 474 139.2 484.5 131.5C495 123.8 510.8 80.3 516 70" fill="none" stroke="#B8DBFF" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="1 5" stroke-linecap="round"/>
+  <circle cx="516" cy="70" r="5" fill="#FFFFFF"/><circle cx="516" cy="70" r="10" fill="none" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="1.5"/>
+  <rect x="0" y="262" width="560" height="118" fill="url(#vfade)"/>
+</svg>
+        <div class="tl"><div class="badge"><i></i>Październik</div></div>
+        <div class="cap"><div><div class="lab">OBJĘTOŚĆ MIESIĘCZNA</div><p class="v">48,3 t <em>· 12 treningów</em></p></div></div>
+      </div></div>
+      <div class="lift gym-photo" style="--z:40;--i:1;--stand:3deg"><div class="photo"><svg aria-hidden="true" focusable="false" viewBox="0 0 560 380" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E1526"/><stop offset="0.72" stop-color="#15284F"/><stop offset="1" stop-color="#0A0D14"/></linearGradient>
+    <radialGradient id="bspot" cx="0.5" cy="0.0" r="0.8"><stop offset="0" stop-color="#B8DBFF" stop-opacity="0.24"/><stop offset="1" stop-color="#B8DBFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="pface" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2E4675"/><stop offset="1" stop-color="#131C30"/></linearGradient>
+    <linearGradient id="pside0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22365F"/><stop offset="1" stop-color="#0E1424"/></linearGradient>
+    <linearGradient id="pside1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#284070"/><stop offset="1" stop-color="#101829"/></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#6BB3FF"/></linearGradient>
+    <radialGradient id="bshadow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#000" stop-opacity="0.6"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="bfade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0A0D14" stop-opacity="0"/><stop offset="1" stop-color="#0A0D14" stop-opacity="0.94"/></linearGradient>
+  </defs>
+  <rect width="560" height="380" fill="url(#bbg)"/><rect width="560" height="380" fill="url(#bspot)"/>
+  <line x1="0" x2="560" y1="281" y2="281" stroke="#6BB3FF" stroke-opacity="0.050"/><line x1="0" x2="560" y1="287.6" y2="287.6" stroke="#6BB3FF" stroke-opacity="0.060"/><line x1="0" x2="560" y1="297.4" y2="297.4" stroke="#6BB3FF" stroke-opacity="0.070"/><line x1="0" x2="560" y1="310.4" y2="310.4" stroke="#6BB3FF" stroke-opacity="0.080"/><line x1="0" x2="560" y1="326.6" y2="326.6" stroke="#6BB3FF" stroke-opacity="0.090"/><line x1="0" x2="560" y1="346" y2="346" stroke="#6BB3FF" stroke-opacity="0.100"/><line x1="0" x2="560" y1="368.6" y2="368.6" stroke="#6BB3FF" stroke-opacity="0.110"/><line x1="0" x2="560" y1="394.4" y2="394.4" stroke="#6BB3FF" stroke-opacity="0.120"/><line x1="0" x2="560" y1="423.4" y2="423.4" stroke="#6BB3FF" stroke-opacity="0.130"/><line x1="40" y1="276" x2="-820" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="64" y1="276" x2="-710" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="88" y1="276" x2="-600" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="112" y1="276" x2="-490" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="136" y1="276" x2="-380" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="160" y1="276" x2="-270" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="184" y1="276" x2="-160" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="208" y1="276" x2="-50" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="232" y1="276" x2="60" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="256" y1="276" x2="170" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="280" y1="276" x2="280" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="304" y1="276" x2="390" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="328" y1="276" x2="500" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="352" y1="276" x2="610" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="376" y1="276" x2="720" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="400" y1="276" x2="830" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="424" y1="276" x2="940" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="448" y1="276" x2="1050" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="472" y1="276" x2="1160" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="496" y1="276" x2="1270" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/><line x1="520" y1="276" x2="1380" y2="380" stroke="#6BB3FF" stroke-opacity="0.07"/>
+  <line x1="0" x2="560" y1="276" y2="276" stroke="#B8DBFF" stroke-opacity="0.2"/>
+  <ellipse cx="140" cy="279" rx="96" ry="9" fill="url(#bshadow)"/><ellipse cx="430" cy="279" rx="96" ry="9" fill="url(#bshadow)"/>
+  <rect x="30" y="171.5" width="500" height="9" rx="4.5" fill="url(#bar)"/>
+  <line x1="206" x2="211" y1="173" y2="179" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/><line x1="219" x2="224" y1="173" y2="179" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/><line x1="232" x2="237" y1="173" y2="179" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/><line x1="245" x2="250" y1="173" y2="179" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/><line x1="258" x2="263" y1="173" y2="179" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/><line x1="271" x2="276" y1="173" y2="179" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/><line x1="284" x2="289" y1="173" y2="179" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/><line x1="297" x2="302" y1="173" y2="179" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/><line x1="310" x2="315" y1="173" y2="179" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/><line x1="323" x2="328" y1="173" y2="179" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/><line x1="336" x2="341" y1="173" y2="179" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/><line x1="349" x2="354" y1="173" y2="179" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/>
+  <rect x="148" y="167" width="12" height="18" rx="3" fill="#B8DBFF"/><rect x="400" y="167" width="12" height="18" rx="3" fill="#B8DBFF"/>
+  <g>
+      <path d="M481 110 L493 110 A17.2 66 0 0 1 493 242 L481 242 Z" fill="url(#pside1)" stroke="#B8DBFF" stroke-opacity="0.5" stroke-width="1.2"/>
+      <ellipse cx="481" cy="176" rx="17.2" ry="66" fill="url(#pface)" stroke="#B8DBFF" stroke-width="1.5"/>
+      <ellipse cx="481" cy="176" rx="12.7" ry="48.8" fill="none" stroke="#6BB3FF" stroke-opacity="0.4" stroke-width="1"/>
+      <ellipse cx="481" cy="176" rx="7.2" ry="27.7" fill="none" stroke="#6BB3FF" stroke-opacity="0.18" stroke-width="1"/>
+      <ellipse cx="481" cy="176" rx="3.4" ry="5.9" fill="#0A0B0E" stroke="#B8DBFF" stroke-opacity="0.7" stroke-width="1"/>
+    </g><g>
+      <path d="M462 90 L478 90 A22.4 86 0 0 1 478 262 L462 262 Z" fill="url(#pside0)" stroke="#B8DBFF" stroke-opacity="0.5" stroke-width="1.2"/>
+      <ellipse cx="462" cy="176" rx="22.4" ry="86" fill="url(#pface)" stroke="#B8DBFF" stroke-width="1.5"/>
+      <ellipse cx="462" cy="176" rx="16.5" ry="63.6" fill="none" stroke="#6BB3FF" stroke-opacity="0.4" stroke-width="1"/>
+      <ellipse cx="462" cy="176" rx="9.4" ry="36.1" fill="none" stroke="#6BB3FF" stroke-opacity="0.18" stroke-width="1"/>
+      <ellipse cx="462" cy="176" rx="4.5" ry="7.7" fill="#0A0B0E" stroke="#B8DBFF" stroke-opacity="0.7" stroke-width="1"/>
+    </g><g>
+      <path d="M437 76 L459 76 A26 100 0 0 1 459 276 L437 276 Z" fill="url(#pside1)" stroke="#B8DBFF" stroke-opacity="0.5" stroke-width="1.2"/>
+      <ellipse cx="437" cy="176" rx="26" ry="100" fill="url(#pface)" stroke="#B8DBFF" stroke-width="1.5"/>
+      <ellipse cx="437" cy="176" rx="19.2" ry="74" fill="none" stroke="#6BB3FF" stroke-opacity="0.4" stroke-width="1"/>
+      <ellipse cx="437" cy="176" rx="10.9" ry="42" fill="none" stroke="#6BB3FF" stroke-opacity="0.18" stroke-width="1"/>
+      <ellipse cx="437" cy="176" rx="5.2" ry="9" fill="#0A0B0E" stroke="#B8DBFF" stroke-opacity="0.7" stroke-width="1"/>
+    </g><g>
+      <path d="M412 76 L434 76 A26 100 0 0 1 434 276 L412 276 Z" fill="url(#pside0)" stroke="#B8DBFF" stroke-opacity="0.5" stroke-width="1.2"/>
+      <ellipse cx="412" cy="176" rx="26" ry="100" fill="url(#pface)" stroke="#B8DBFF" stroke-width="1.5"/>
+      <ellipse cx="412" cy="176" rx="19.2" ry="74" fill="none" stroke="#6BB3FF" stroke-opacity="0.4" stroke-width="1"/>
+      <ellipse cx="412" cy="176" rx="10.9" ry="42" fill="none" stroke="#6BB3FF" stroke-opacity="0.18" stroke-width="1"/>
+      <ellipse cx="412" cy="176" rx="5.2" ry="9" fill="#0A0B0E" stroke="#B8DBFF" stroke-opacity="0.7" stroke-width="1"/>
+    </g><g>
+      <path d="M123 76 L145 76 A26 100 0 0 1 145 276 L123 276 Z" fill="url(#pside0)" stroke="#B8DBFF" stroke-opacity="0.5" stroke-width="1.2"/>
+      <ellipse cx="123" cy="176" rx="26" ry="100" fill="url(#pface)" stroke="#B8DBFF" stroke-width="1.5"/>
+      <ellipse cx="123" cy="176" rx="19.2" ry="74" fill="none" stroke="#6BB3FF" stroke-opacity="0.4" stroke-width="1"/>
+      <ellipse cx="123" cy="176" rx="10.9" ry="42" fill="none" stroke="#6BB3FF" stroke-opacity="0.18" stroke-width="1"/>
+      <ellipse cx="123" cy="176" rx="5.2" ry="9" fill="#0A0B0E" stroke="#B8DBFF" stroke-opacity="0.7" stroke-width="1"/>
+    </g><g>
+      <path d="M98 76 L120 76 A26 100 0 0 1 120 276 L98 276 Z" fill="url(#pside1)" stroke="#B8DBFF" stroke-opacity="0.5" stroke-width="1.2"/>
+      <ellipse cx="98" cy="176" rx="26" ry="100" fill="url(#pface)" stroke="#B8DBFF" stroke-width="1.5"/>
+      <ellipse cx="98" cy="176" rx="19.2" ry="74" fill="none" stroke="#6BB3FF" stroke-opacity="0.4" stroke-width="1"/>
+      <ellipse cx="98" cy="176" rx="10.9" ry="42" fill="none" stroke="#6BB3FF" stroke-opacity="0.18" stroke-width="1"/>
+      <ellipse cx="98" cy="176" rx="5.2" ry="9" fill="#0A0B0E" stroke="#B8DBFF" stroke-opacity="0.7" stroke-width="1"/>
+    </g><g>
+      <path d="M79 90 L95 90 A22.4 86 0 0 1 95 262 L79 262 Z" fill="url(#pside0)" stroke="#B8DBFF" stroke-opacity="0.5" stroke-width="1.2"/>
+      <ellipse cx="79" cy="176" rx="22.4" ry="86" fill="url(#pface)" stroke="#B8DBFF" stroke-width="1.5"/>
+      <ellipse cx="79" cy="176" rx="16.5" ry="63.6" fill="none" stroke="#6BB3FF" stroke-opacity="0.4" stroke-width="1"/>
+      <ellipse cx="79" cy="176" rx="9.4" ry="36.1" fill="none" stroke="#6BB3FF" stroke-opacity="0.18" stroke-width="1"/>
+      <ellipse cx="79" cy="176" rx="4.5" ry="7.7" fill="#0A0B0E" stroke="#B8DBFF" stroke-opacity="0.7" stroke-width="1"/>
+    </g><g>
+      <path d="M64 110 L76 110 A17.2 66 0 0 1 76 242 L64 242 Z" fill="url(#pside1)" stroke="#B8DBFF" stroke-opacity="0.5" stroke-width="1.2"/>
+      <ellipse cx="64" cy="176" rx="17.2" ry="66" fill="url(#pface)" stroke="#B8DBFF" stroke-width="1.5"/>
+      <ellipse cx="64" cy="176" rx="12.7" ry="48.8" fill="none" stroke="#6BB3FF" stroke-opacity="0.4" stroke-width="1"/>
+      <ellipse cx="64" cy="176" rx="7.2" ry="27.7" fill="none" stroke="#6BB3FF" stroke-opacity="0.18" stroke-width="1"/>
+      <ellipse cx="64" cy="176" rx="3.4" ry="5.9" fill="#0A0B0E" stroke="#B8DBFF" stroke-opacity="0.7" stroke-width="1"/>
+    </g>
+  <rect x="0" y="284" width="560" height="96" fill="url(#bfade)"/>
+</svg>
+        <div class="tl"><div class="badge"><i></i>Trening B</div></div>
+        <div class="cap"><div><div class="lab">MARTWY CIĄG</div><p class="v">5 × 3 <em>· 140 kg</em></p></div></div>
+      </div></div>
+      <div class="lift chip-l gc1" style="--z:110;--i:2;--stand:30deg;--r:23px"><div class="chip"><span class="ci"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><rect x="2" y="9" width="3" height="6" rx="1" fill="currentColor"/><rect x="5" y="7" width="3" height="10" rx="1" fill="currentColor"/><rect x="16" y="7" width="3" height="10" rx="1" fill="currentColor"/><rect x="19" y="9" width="3" height="6" rx="1" fill="currentColor"/><rect x="8" y="10.5" width="8" height="3" fill="currentColor"/></svg></span>Martwy ciąg 140 kg</div></div>
+      <div class="lift chip-l gc2" style="--z:110;--i:3;--stand:30deg;--r:23px"><div class="chip"><span class="ci"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 19V5M5.5 11.5L12 5l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>+5 kg<span class="sep"></span><small>REKORD</small></div></div>
+      <div class="lift span2" style="--z:26;--i:2"><div class="card"><div class="rec">
+          <div class="rec-intro"><span class="ct">Rekordy osobiste</span><span class="big">17<em>w tym roku</em></span></div>
+          <div class="rec-item"><div class="nm"><span>Martwy ciąg</span><svg aria-hidden="true" focusable="false" class="spark" width="92" height="26" viewBox="0 0 92 26" style="overflow:visible"><path d="M0 24.2C2.2 23.4 8.8 20.6 13.1 19.5C17.5 18.4 21.9 18.3 26.3 17.5C30.7 16.6 35 15.3 39.4 14.5C43.8 13.6 48.2 13.5 52.6 12.5C57 11.6 61.3 9.7 65.7 8.7C70.1 7.7 74.5 7.3 78.9 6.3C83.2 5.4 89.8 3.6 92 3" fill="none" stroke="#6BB3FF" stroke-width="2" stroke-linecap="round"/><circle cx="92" cy="3" r="3" fill="#FFFFFF"/></svg></div><div class="vl">140<em>kg</em></div><div class="dl"><b><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="11" height="11"><path d="M12 19V5M5.5 11.5L12 5l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>5 kg</b>dziś</div></div>
+          <div class="rec-item"><div class="nm"><span>Przysiad</span><svg aria-hidden="true" focusable="false" class="spark" width="92" height="26" viewBox="0 0 92 26" style="overflow:visible"><path d="M0 22.8C2.2 22.2 8.8 20 13.1 19C17.5 17.9 21.9 17.4 26.3 16.6C30.7 15.8 35 15.2 39.4 14.3C43.8 13.4 48.2 12.2 52.6 11.4C57 10.5 61.3 10.1 65.7 9.4C70.1 8.7 74.5 8.2 78.9 7.1C83.2 6.1 89.8 3.7 92 3" fill="none" stroke="#6BB3FF" stroke-width="2" stroke-linecap="round"/><circle cx="92" cy="3" r="3" fill="#FFFFFF"/></svg></div><div class="vl">120<em>kg</em></div><div class="dl"><b><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="11" height="11"><path d="M12 19V5M5.5 11.5L12 5l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>2,5 kg</b>21 paź</div></div>
+          <div class="rec-item"><div class="nm"><span>Wyciskanie</span><svg aria-hidden="true" focusable="false" class="spark" width="92" height="26" viewBox="0 0 92 26" style="overflow:visible"><path d="M0 21.7C2.2 21.3 8.8 20.4 13.1 19.7C17.5 19 21.9 18 26.3 17.4C30.7 16.8 35 17.2 39.4 16.2C43.8 15.2 48.2 12.2 52.6 11.4C57 10.6 61.3 12.1 65.7 11.3C70.1 10.5 74.5 8 78.9 6.6C83.2 5.2 89.8 3.6 92 3" fill="none" stroke="#6BB3FF" stroke-width="2" stroke-linecap="round"/><circle cx="92" cy="3" r="3" fill="#FFFFFF"/></svg></div><div class="vl">95<em>kg</em></div><div class="dl"><b><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="11" height="11"><path d="M12 19V5M5.5 11.5L12 5l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>2,5 kg</b>14 paź</div></div>
+          <div class="rec-item"><div class="nm"><span>Podciąganie</span><svg aria-hidden="true" focusable="false" class="spark" width="92" height="26" viewBox="0 0 92 26" style="overflow:visible"><path d="M0 21.7C2.2 21.7 8.8 22.4 13.1 21.6C17.5 20.8 21.9 17.7 26.3 16.9C30.7 16 35 16.7 39.4 16.3C43.8 15.8 48.2 15.3 52.6 14C57 12.8 61.3 9.7 65.7 8.8C70.1 7.9 74.5 9.4 78.9 8.5C83.2 7.5 89.8 3.9 92 3" fill="none" stroke="#6BB3FF" stroke-width="2" stroke-linecap="round"/><circle cx="92" cy="3" r="3" fill="#FFFFFF"/></svg></div><div class="vl">+25<em>kg × 5</em></div><div class="dl"><b><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="11" height="11"><path d="M12 19V5M5.5 11.5L12 5l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>5 kg</b>2 paź</div></div>
+        </div></div></div>
+    </div>
+    <ul class="facts">
+      <li><b>Serie i ciężary</b>Każde ćwiczenie zapisujesz seriami: ciężar i powtórzenia, z czasem treningu.</li>
+      <li><b>Rekordy same się zaznaczają</b>Nowy najlepszy wynik dostaje znacznik „Nowy rekord!”, a szacowany ciężar maksymalny (1RM) liczy się z Twoich serii.</li>
+      <li><b>Objętość i progres</b>Tony podniesione w treningu i w miesiącu oraz historia każdego ćwiczenia.</li>
+    </ul>
+  </div>
+</section>
+<!-- Tenis -->
+<section class="sec tennis" id="tenis" aria-labelledby="tennis-h">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow"><span class="ic"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="currentColor"/><path d="M4.6 6.8c2.9 2.6 2.9 7.8 0 10.4M19.4 6.8c-2.9 2.6-2.9 7.8 0 10.4" fill="none" stroke="#0A0B0E" stroke-width="1.7" stroke-linecap="round" opacity="0.75"/></svg></span>TENIS<em>02</em></p>
+        <h2 class="h2" id="tennis-h">Mecz liczony<br>na nadgarstku.</h2>
+      </div>
+      <p class="lede">Punkty zapisujesz jednym dotknięciem na Apple Watch. Telefon składa z nich <b>wynik, statystyki i przebieg meczu</b>.</p>
+    </div>
+    <div class="stage tennis-stage" data-tilt role="img" aria-label="Przykładowa analiza meczu: wygrana 6-2, 7-6, statystyki punktów, serwisu, break pointów i podwójnych błędów, wykres przebiegu meczu oraz trening na zegarku.">
+      <div class="lift t-score" style="--z:30;--i:0"><div class="card score">
+        <div class="score-top"><div class="wbadge">W</div><div><div class="ct">Mecz ligowy</div><div class="cs">Sobota · 1:42 h · z zegarka</div></div></div>
+        <div class="sets">
+          <div class="who"><i></i>Ja</div><div class="g">6</div><div class="g">7<sup>5</sup></div>
+          <div class="who op"><i></i>Rywal</div><div class="g lo">2</div><div class="g lo">6</div>
+        </div>
+        <div class="stats">
+          <div class="st"><div class="st-h"><b>58%</b><span>Wygrane punkty</span><span>42%</span></div><div class="st-bar"><i style="width:58%"></i><i style="width:42%"></i></div></div>
+          <div class="st"><div class="st-h"><b>68%</b><span>Punkty przy serwisie</span><span>51%</span></div><div class="st-bar"><i style="width:57%"></i><i style="width:43%"></i></div></div>
+          <div class="st"><div class="st-h"><b>3/5</b><span>Break pointy</span><span>1/6</span></div><div class="st-bar"><i style="width:68%"></i><i style="width:32%"></i></div></div>
+          <div class="st"><div class="st-h"><b>2</b><span>Podwójne błędy</span><span>4</span></div><div class="st-bar"><i style="width:33%"></i><i style="width:67%"></i></div></div>
+          <div class="st"><div class="st-h"><b>7</b><span>Najdłuższa seria pkt</span><span>4</span></div><div class="st-bar"><i style="width:64%"></i><i style="width:36%"></i></div></div>
+        </div>
+      </div></div>
+      <div class="lift t-photo" style="--z:28;--i:1"><div class="photo court"><svg aria-hidden="true" focusable="false" viewBox="0 0 792 312" preserveAspectRatio="xMaxYMid slice">
+  <defs>
+    <linearGradient id="csky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#070A12"/><stop offset="0.45" stop-color="#0D1A33"/><stop offset="1" stop-color="#16305E"/></linearGradient>
+    <linearGradient id="crun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14305F"/><stop offset="1" stop-color="#1B3E7A"/></linearGradient>
+    <linearGradient id="ccourt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2557B8"/><stop offset="1" stop-color="#3D7DFF"/></linearGradient>
+    <radialGradient id="clight" cx="0.62" cy="0.2" r="0.7"><stop offset="0" stop-color="#B8DBFF" stop-opacity="0.28"/><stop offset="1" stop-color="#B8DBFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ctrail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.85"/></linearGradient>
+    <radialGradient id="cball" cx="0.38" cy="0.34" r="0.7"><stop offset="0" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#E3F0FF"/><stop offset="1" stop-color="#9CC6F5"/></radialGradient>
+    <linearGradient id="cfade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0A0D14" stop-opacity="0"/><stop offset="1" stop-color="#0A0D14" stop-opacity="0.85"/></linearGradient>
+  </defs>
+  <rect width="792" height="312" fill="url(#csky)"/>
+  <polygon points="-445.8,780.8 1501.8,780.8 624.7,45.1 431.3,45.1" fill="url(#crun)"/>
+  <polygon points="303.1,290.7 752.9,290.7 594.6,60.7 461.4,60.7" fill="url(#ccourt)"/>
+  <rect width="792" height="312" fill="url(#clight)"/>
+  <line x1="303.1" y1="290.7" x2="752.9" y2="290.7" stroke="#F3F5F8" stroke-width="3" stroke-opacity="0.92" stroke-linecap="square"/><line x1="461.4" y1="60.7" x2="594.6" y2="60.7" stroke="#F3F5F8" stroke-width="1.4" stroke-opacity="0.92" stroke-linecap="square"/><line x1="303.1" y1="290.7" x2="461.4" y2="60.7" stroke="#F3F5F8" stroke-width="2" stroke-opacity="0.92" stroke-linecap="square"/><line x1="752.9" y1="290.7" x2="594.6" y2="60.7" stroke="#F3F5F8" stroke-width="2" stroke-opacity="0.92" stroke-linecap="square"/><line x1="359.3" y1="290.7" x2="478" y2="60.7" stroke="#F3F5F8" stroke-width="2" stroke-opacity="0.92" stroke-linecap="square"/><line x1="696.7" y1="290.7" x2="578" y2="60.7" stroke="#F3F5F8" stroke-width="2" stroke-opacity="0.92" stroke-linecap="square"/><line x1="419" y1="175" x2="637" y2="175" stroke="#F3F5F8" stroke-width="2" stroke-opacity="0.92" stroke-linecap="square"/><line x1="468.4" y1="79.5" x2="587.6" y2="79.5" stroke="#F3F5F8" stroke-width="1.5" stroke-opacity="0.92" stroke-linecap="square"/><line x1="528" y1="175" x2="528" y2="79.5" stroke="#F3F5F8" stroke-width="2" stroke-opacity="0.92" stroke-linecap="square"/><line x1="528" y1="290.7" x2="528" y2="279.7" stroke="#F3F5F8" stroke-width="3" stroke-opacity="0.92" stroke-linecap="square"/><line x1="528" y1="60.7" x2="528" y2="61.6" stroke="#F3F5F8" stroke-width="1.4" stroke-opacity="0.92" stroke-linecap="square"/>
+  <rect x="408.4" y="95.5" width="239.2" height="17.8" fill="#0A0D14" fill-opacity="0.35"/>
+  <line x1="408.4" x2="408.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="413.4" x2="413.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="418.4" x2="418.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="423.4" x2="423.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="428.4" x2="428.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="433.4" x2="433.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="438.4" x2="438.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="443.4" x2="443.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="448.4" x2="448.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="453.4" x2="453.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="458.4" x2="458.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="463.4" x2="463.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="468.4" x2="468.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="473.4" x2="473.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="478.4" x2="478.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="483.4" x2="483.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="488.4" x2="488.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="493.4" x2="493.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="498.4" x2="498.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="503.4" x2="503.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="508.4" x2="508.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="513.4" x2="513.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="518.4" x2="518.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="523.4" x2="523.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="528.4" x2="528.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="533.4" x2="533.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="538.4" x2="538.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="543.4" x2="543.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="548.4" x2="548.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="553.4" x2="553.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="558.4" x2="558.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="563.4" x2="563.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="568.4" x2="568.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="573.4" x2="573.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="578.4" x2="578.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="583.4" x2="583.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="588.4" x2="588.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="593.4" x2="593.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="598.4" x2="598.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="603.4" x2="603.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="608.4" x2="608.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="613.4" x2="613.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="618.4" x2="618.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="623.4" x2="623.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="628.4" x2="628.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="633.4" x2="633.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="638.4" x2="638.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="643.4" x2="643.4" y1="95.5" y2="113.3" stroke="#0A0B0E" stroke-opacity="0.35" stroke-width="1"/><line x1="408.4" x2="647.6" y1="95.5" y2="95.5" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/><line x1="408.4" x2="647.6" y1="99.5" y2="99.5" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/><line x1="408.4" x2="647.6" y1="103.5" y2="103.5" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/><line x1="408.4" x2="647.6" y1="107.5" y2="107.5" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/><line x1="408.4" x2="647.6" y1="111.5" y2="111.5" stroke="#0A0B0E" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="408.4" x2="647.6" y1="95.5" y2="95.5" stroke="#FFFFFF" stroke-width="2.4"/>
+  <line x1="408.4" x2="408.4" y1="93.5" y2="114.3" stroke="#B8DBFF" stroke-width="3"/><line x1="647.6" x2="647.6" y1="93.5" y2="114.3" stroke="#B8DBFF" stroke-width="3"/>
+  <path d="M470.5 250.6 Q580.5 36 640 140" fill="none" stroke="url(#ctrail)" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <ellipse cx="568.2" cy="87.3" rx="9" ry="2.6" fill="#0A0D14" fill-opacity="0.45"/>
+  <circle cx="640" cy="140" r="12" fill="url(#cball)"/>
+  <path d="M631 133c4 3 4 11 0 14M649 133c-4 3-4 11 0 14" fill="none" stroke="#3D7DFF" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="0" y="200" width="792" height="112" fill="url(#cfade)"/>
+</svg>
+        <div class="tl"><div class="badge"><i></i>Apple Watch</div></div>
+        <div class="cap"><div><div class="lab">TRENING NA ZEGARKU</div><p class="v">1:24:10 <em>· śr. 142 bpm</em></p></div></div>
+      </div></div>
+      <div class="lift chip-l t-chip" style="--z:56;--i:2;--stand:24deg;--r:23px"><div class="chip"><span class="ci ci-w"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="currentColor"/><path d="M4.6 6.8c2.9 2.6 2.9 7.8 0 10.4M19.4 6.8c-2.9 2.6-2.9 7.8 0 10.4" fill="none" stroke="#0A0B0E" stroke-width="1.7" stroke-linecap="round" opacity="0.75"/></svg></span>Piłka setowa · Ja</div></div>
+      <div class="lift t-chart" style="--z:24;--i:2"><div class="card chart">
+        <div class="card-h"><span class="ct">Przebieg meczu</span><span class="legend"><span><i class="d1"></i>Ja</span><span><i class="d4"></i>Rywal</span><span class="lg-s">Set 1 · Set 2</span></span></div>
+        <div class="chart-svg"><svg aria-hidden="true" focusable="false" class="flow" viewBox="0 0 744 74" preserveAspectRatio="none" style="overflow:visible">
+  <defs>
+    <clipPath id="mup"><rect x="0" y="0" width="744" height="37"/></clipPath>
+    <clipPath id="mdn"><rect x="0" y="37" width="744" height="37"/></clipPath>
+    <linearGradient id="mga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6BB3FF" stop-opacity="0.45"/><stop offset="1" stop-color="#6BB3FF" stop-opacity="0.02"/></linearGradient>
+    <linearGradient id="mgb" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#8A9099" stop-opacity="0.35"/><stop offset="1" stop-color="#8A9099" stop-opacity="0.02"/></linearGradient>
+  </defs>
+  <line vector-effect="non-scaling-stroke" x1="0" x2="744" y1="37" y2="37" stroke="rgba(255,255,255,0.12)"/>
+  <line vector-effect="non-scaling-stroke" x1="0" x2="0" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="37.2" x2="37.2" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="74.4" x2="74.4" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="111.6" x2="111.6" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="148.8" x2="148.8" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="186" x2="186" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="223.2" x2="223.2" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="260.4" x2="260.4" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="297.6" x2="297.6" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="334.8" x2="334.8" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="372" x2="372" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="409.2" x2="409.2" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="446.4" x2="446.4" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="483.6" x2="483.6" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="520.8" x2="520.8" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="558" x2="558" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="595.2" x2="595.2" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="632.4" x2="632.4" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="669.6" x2="669.6" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="706.8" x2="706.8" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/><line vector-effect="non-scaling-stroke" x1="744" x2="744" y1="35" y2="39" stroke="rgba(255,255,255,0.18)"/>
+  <path vector-effect="non-scaling-stroke" d="M0 28C6.2 27 24.8 19.5 37.2 22C49.6 24.5 62 43.5 74.4 43C86.8 42.5 99.2 24 111.6 19C124 14 136.4 12 148.8 13C161.2 14 173.6 25.5 186 25C198.4 24.5 210.8 11.5 223.2 10C235.6 8.5 248 12.5 260.4 16C272.8 19.5 285.2 25.5 297.6 31C310 36.5 322.4 45 334.8 49C347.2 53 359.6 57.5 372 55C384.4 52.5 396.8 38.5 409.2 34C421.6 29.5 434 26 446.4 28C458.8 30 471.2 46.5 483.6 46C496 45.5 508.4 25.5 520.8 25C533.2 24.5 545.6 43.5 558 43C570.4 42.5 582.8 20.5 595.2 22C607.6 23.5 620 50.5 632.4 52C644.8 53.5 657.2 36.5 669.6 31C682 25.5 694.4 22.8 706.8 19C719.2 15.3 737.8 10.3 744 8.5L744 37L0 37Z" fill="url(#mga)" clip-path="url(#mup)"/>
+  <path vector-effect="non-scaling-stroke" d="M0 28C6.2 27 24.8 19.5 37.2 22C49.6 24.5 62 43.5 74.4 43C86.8 42.5 99.2 24 111.6 19C124 14 136.4 12 148.8 13C161.2 14 173.6 25.5 186 25C198.4 24.5 210.8 11.5 223.2 10C235.6 8.5 248 12.5 260.4 16C272.8 19.5 285.2 25.5 297.6 31C310 36.5 322.4 45 334.8 49C347.2 53 359.6 57.5 372 55C384.4 52.5 396.8 38.5 409.2 34C421.6 29.5 434 26 446.4 28C458.8 30 471.2 46.5 483.6 46C496 45.5 508.4 25.5 520.8 25C533.2 24.5 545.6 43.5 558 43C570.4 42.5 582.8 20.5 595.2 22C607.6 23.5 620 50.5 632.4 52C644.8 53.5 657.2 36.5 669.6 31C682 25.5 694.4 22.8 706.8 19C719.2 15.3 737.8 10.3 744 8.5L744 37L0 37Z" fill="url(#mgb)" clip-path="url(#mdn)"/>
+  <path vector-effect="non-scaling-stroke" d="M0 28C6.2 27 24.8 19.5 37.2 22C49.6 24.5 62 43.5 74.4 43C86.8 42.5 99.2 24 111.6 19C124 14 136.4 12 148.8 13C161.2 14 173.6 25.5 186 25C198.4 24.5 210.8 11.5 223.2 10C235.6 8.5 248 12.5 260.4 16C272.8 19.5 285.2 25.5 297.6 31C310 36.5 322.4 45 334.8 49C347.2 53 359.6 57.5 372 55C384.4 52.5 396.8 38.5 409.2 34C421.6 29.5 434 26 446.4 28C458.8 30 471.2 46.5 483.6 46C496 45.5 508.4 25.5 520.8 25C533.2 24.5 545.6 43.5 558 43C570.4 42.5 582.8 20.5 595.2 22C607.6 23.5 620 50.5 632.4 52C644.8 53.5 657.2 36.5 669.6 31C682 25.5 694.4 22.8 706.8 19C719.2 15.3 737.8 10.3 744 8.5" fill="none" stroke="#6BB3FF" stroke-width="2.2" clip-path="url(#mup)"/>
+  <path vector-effect="non-scaling-stroke" d="M0 28C6.2 27 24.8 19.5 37.2 22C49.6 24.5 62 43.5 74.4 43C86.8 42.5 99.2 24 111.6 19C124 14 136.4 12 148.8 13C161.2 14 173.6 25.5 186 25C198.4 24.5 210.8 11.5 223.2 10C235.6 8.5 248 12.5 260.4 16C272.8 19.5 285.2 25.5 297.6 31C310 36.5 322.4 45 334.8 49C347.2 53 359.6 57.5 372 55C384.4 52.5 396.8 38.5 409.2 34C421.6 29.5 434 26 446.4 28C458.8 30 471.2 46.5 483.6 46C496 45.5 508.4 25.5 520.8 25C533.2 24.5 545.6 43.5 558 43C570.4 42.5 582.8 20.5 595.2 22C607.6 23.5 620 50.5 632.4 52C644.8 53.5 657.2 36.5 669.6 31C682 25.5 694.4 22.8 706.8 19C719.2 15.3 737.8 10.3 744 8.5" fill="none" stroke="#8A9099" stroke-width="2.2" clip-path="url(#mdn)"/>
+  <line vector-effect="non-scaling-stroke" x1="279" x2="279" y1="-4" y2="78" stroke="rgba(255,255,255,0.22)" stroke-dasharray="3 4"/>
+</svg></div>
+      </div></div>
+    </div>
+    <ul class="facts facts-6">
+      <li><b>Liczenie punktów na zegarku</b>Punkt dla siebie albo rywala jednym dotknięciem; zegarek prowadzi gemy, sety i tie-breaki, także w formacie No-Ad.</li>
+      <li><b>Cofanie</b>Pomyłka? Cofasz ostatni punkt i grasz dalej.</li>
+      <li><b>Zakończenie przed czasem</b>Skończył się czas kortu? Kończysz mecz jako wygrany, przegrany albo bez rozstrzygnięcia.</li>
+      <li><b>Trening na zegarku</b>Bez liczenia punktów: czas, tętno, strefy i kalorie. Trening trafia do Karterii na iPhonie.</li>
+      <li><b>Analiza meczów</b>Na telefonie: przebieg meczu, serwis i odbiór, break pointy, najdłuższe serie, tętno w kluczowych punktach i regeneracja po meczu.</li>
+      <li><b>Razem z aplikacją Trening</b>Liczysz tenis w aplikacji Trening od Apple? Karteria nie przerwie tego treningu — tylko odczyta tętno.</li>
+    </ul>
+  </div>
+</section>
+<!-- Plan -->
+<section class="sec plan" id="plan" aria-labelledby="plan-h">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow"><span class="ic"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><circle cx="6" cy="7" r="3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="6" cy="17" r="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4.8 7l.9.9 1.6-1.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 7h9M12 17h9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span>PLAN<em>03</em></p>
+        <h2 class="h2" id="plan-h">Rutyny, zadania,<br>kalendarz.</h2>
+      </div>
+      <p class="lede">Poranne rutyny, zadania na dziś i treningi w kalendarzu. <b>Każde odhaczenie liczy się do serii.</b></p>
+    </div>
+    <div class="stage two" data-tilt role="img" aria-label="Przykładowy plan: rutyny na dziś, cztery z sześciu odhaczone, oraz kalendarz października 2026 z kropkami treningów, meczów i rutyn.">
+      <div class="lift" style="--z:30;--i:0"><div class="card rt">
+        <div class="card-h"><span class="ct">Rutyny na dziś</span><span class="cs num">4 z 6</span></div>
+        <div class="progress"><i style="width:66.7%"></i></div>
+        <div class="rt-row on"><span class="ck on"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="rt-t">Rozciąganie poranne</span><span class="rt-m">07:00</span></div>
+        <div class="rt-row on"><span class="ck on"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="rt-t">Dwa litry wody</span><span class="rt-m">cały dzień</span></div>
+        <div class="rt-row on"><span class="ck on"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="rt-t">Czytanie · 20 stron</span><span class="rt-m">12:30</span></div>
+        <div class="rt-row on"><span class="ck on"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="rt-t">Trening siłowy</span><span class="rt-m">18:00</span></div>
+        <div class="rt-row"><span class="ck"></span><span class="rt-t">Medytacja · 10 min</span><span class="rt-m">21:00</span></div>
+        <div class="rt-row"><span class="ck"></span><span class="rt-t">Sen przed 23:00</span><span class="rt-m">22:45</span></div>
+      </div></div>
+      <div class="lift" style="--z:30;--i:1"><div class="card cal">
+        <div class="card-h"><span class="ct">Październik 2026</span><span class="legend"><span><i class="d1"></i>Siłownia</span><span><i class="d2"></i>Tenis</span><span><i class="d3"></i>Rutyny</span></span></div>
+        <div class="cal-grid"><div class="dh">PN</div><div class="dh">WT</div><div class="dh">ŚR</div><div class="dh">CZ</div><div class="dh">PT</div><div class="dh">SO</div><div class="dh">ND</div><div class="cd mute"><span class="n">28</span><span class="dots"></span></div><div class="cd mute"><span class="n">29</span><span class="dots"></span></div><div class="cd mute"><span class="n">30</span><span class="dots"></span></div><div class="cd "><span class="n">1</span><span class="dots"><i class="d3"></i></span></div><div class="cd "><span class="n">2</span><span class="dots"><i class="d1"></i><i class="d3"></i></span></div><div class="cd "><span class="n">3</span><span class="dots"><i class="d2"></i><i class="d3"></i></span></div><div class="cd "><span class="n">4</span><span class="dots"><i class="d3"></i></span></div><div class="cd "><span class="n">5</span><span class="dots"><i class="d1"></i><i class="d3"></i></span></div><div class="cd "><span class="n">6</span><span class="dots"><i class="d2"></i></span></div><div class="cd "><span class="n">7</span><span class="dots"><i class="d1"></i><i class="d3"></i></span></div><div class="cd "><span class="n">8</span><span class="dots"><i class="d3"></i></span></div><div class="cd "><span class="n">9</span><span class="dots"><i class="d1"></i></span></div><div class="cd "><span class="n">10</span><span class="dots"><i class="d2"></i></span></div><div class="cd "><span class="n">11</span><span class="dots"><i class="d3"></i></span></div><div class="cd "><span class="n">12</span><span class="dots"><i class="d1"></i><i class="d3"></i></span></div><div class="cd "><span class="n">13</span><span class="dots"><i class="d2"></i></span></div><div class="cd "><span class="n">14</span><span class="dots"><i class="d1"></i></span></div><div class="cd "><span class="n">15</span><span class="dots"><i class="d3"></i></span></div><div class="cd "><span class="n">16</span><span class="dots"><i class="d1"></i><i class="d3"></i></span></div><div class="cd "><span class="n">17</span><span class="dots"><i class="d2"></i><i class="d3"></i></span></div><div class="cd "><span class="n">18</span><span class="dots"></span></div><div class="cd "><span class="n">19</span><span class="dots"><i class="d1"></i><i class="d3"></i></span></div><div class="cd "><span class="n">20</span><span class="dots"><i class="d2"></i><i class="d3"></i></span></div><div class="cd "><span class="n">21</span><span class="dots"><i class="d1"></i></span></div><div class="cd "><span class="n">22</span><span class="dots"><i class="d3"></i></span></div><div class="cd "><span class="n">23</span><span class="dots"><i class="d1"></i><i class="d3"></i></span></div><div class="cd "><span class="n">24</span><span class="dots"><i class="d2"></i><i class="d3"></i></span></div><div class="cd "><span class="n">25</span><span class="dots"><i class="d3"></i></span></div><div class="cd "><span class="n">26</span><span class="dots"><i class="d1"></i><i class="d3"></i></span></div><div class="cd "><span class="n">27</span><span class="dots"><i class="d2"></i><i class="d3"></i></span></div><div class="cd today"><span class="n">28</span><span class="dots"><i class="d1"></i><i class="d3"></i></span></div><div class="cd fut"><span class="n">29</span><span class="dots"></span></div><div class="cd fut"><span class="n">30</span><span class="dots"><i class="d4"></i></span></div><div class="cd fut"><span class="n">31</span><span class="dots"><i class="d4"></i></span></div><div class="cd mute"><span class="n">1</span><span class="dots"></span></div></div>
+        <div class="cal-foot"><span>W październiku</span><span><b>27</b> dni aktywnych · <b>12</b> na siłowni · <b>8</b> na korcie</span></div>
+      </div></div>
+    </div>
+    <ul class="facts">
+      <li><b>Rutyny</b>Rano, w ciągu dnia albo wieczorem, w wybrane dni tygodnia — z odhaczaniem i skutecznością z 30 dni.</li>
+      <li><b>Zadania i przypomnienia</b>Zadania z terminem i powiadomieniem; z powiadomienia oznaczysz je jako zrobione albo odłożysz o godzinę.</li>
+      <li><b>Kalendarz</b>Miesiąc z kropkami aktywności i agenda dnia: zadania, rutyny, treningi i ważenia.</li>
+    </ul>
+  </div>
+</section>
+<!-- Zdrowie -->
+<section class="sec health" id="zdrowie" aria-labelledby="health-h">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow"><span class="ic"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 20.5s-7.5-4.6-7.5-10A4.3 4.3 0 0 1 12 8a4.3 4.3 0 0 1 7.5 2.5c0 5.4-7.5 10-7.5 10z" fill="currentColor"/></svg></span>ZDROWIE<em>04</em></p>
+        <h2 class="h2" id="health-h">Gotowość<br>bez zgadywania.</h2>
+      </div>
+      <p class="lede">HRV i tętno spoczynkowe względem Twojej normy, sen i wczorajsze obciążenie składają się w <b>jedną liczbę na każdy poranek</b>.</p>
+    </div>
+    <div class="stage two" data-tilt role="img" aria-label="Przykładowe dane zdrowia: gotowość 73%, HRV 62 ms, tętno spoczynkowe 52 uderzenia na minutę, ACWR 1,08 oraz wykres obciążenia z ostatnich 28 dni, dziś 13,9.">
+      <div class="lift" style="--z:28;--i:0"><div class="card ready">
+        <div class="card-h"><span class="ct">Gotowość</span><span class="tag">DZIŚ RANO</span></div>
+        <div class="ready-body">
+          <div class="bigdial"><svg aria-hidden="true" focusable="false" viewBox="0 0 214 214"><defs><linearGradient id="rg131046" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B8DBFF"/><stop offset="1" stop-color="#3D7DFF"/></linearGradient></defs><circle cx="107" cy="107" r="99" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="16"/><circle cx="107" cy="107" r="99" fill="none" stroke="url(#rg131046)" stroke-width="16" stroke-linecap="round" pathLength="100" stroke-dasharray="73.00 100" transform="rotate(-90 107 107)"/></svg><b><span class="v">73<sup>%</sup></span><span class="l">GOTOWOŚĆ</span></b></div>
+          <div class="metrics">
+            <div><div class="m-h"><span>HRV</span><b>62<em>ms</em></b></div><div class="m-bar"><i style="width:68%"></i></div></div>
+            <div><div class="m-h"><span>Tętno spoczynkowe</span><b>52<em>ud./min</em></b></div><div class="m-bar"><i style="width:56%"></i></div></div>
+            <div><div class="m-h"><span>ACWR</span><b>1,08</b></div><div class="m-bar"><span class="zone" style="left:40%;width:25%"></span><span class="pin" style="left:54%"></span></div></div>
+          </div>
+        </div>
+        <p class="ready-note"><b>Dobry dzień na mocny trening.</b> HRV powyżej Twojej normy, obciążenie w bezpiecznym zakresie.</p>
+      </div></div>
+      <div class="lift" style="--z:32;--i:1"><div class="card load">
+        <div class="card-h"><span class="ct">Obciążenie</span><span class="cs">ostatnie 28 dni</span></div>
+        <div class="load-v"><b>13,9</b><span>dziś · ACWR 1,08</span><span class="tag">W NORMIE</span></div>
+        <div style="margin-top:20px"><svg aria-hidden="true" focusable="false" class="loadsvg" viewBox="0 0 528 196">
+  <defs>
+    <linearGradient id="ld" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3D7DFF"/><stop offset="1" stop-color="#3D7DFF" stop-opacity="0.25"/></linearGradient>
+    <linearGradient id="ldL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#6BB3FF" stop-opacity="0.5"/></linearGradient>
+  </defs>
+  <line x1="0" x2="528" y1="172" y2="172" stroke="rgba(255,255,255,0.12)"/><line x1="0" x2="528" y1="126" y2="126" stroke="rgba(255,255,255,0.05)"/><line x1="0" x2="528" y1="80" y2="80" stroke="rgba(255,255,255,0.05)"/><line x1="0" x2="528" y1="34" y2="34" stroke="rgba(255,255,255,0.05)"/><rect x="0" y="71.4" width="11" height="100.6" rx="3.5" fill="url(#ld)"/><rect x="19.1" y="86.6" width="11" height="85.4" rx="3.5" fill="url(#ld)"/><rect x="38.3" y="67.9" width="11" height="104.1" rx="3.5" fill="url(#ld)"/><rect x="57.4" y="160.8" width="11" height="11.2" rx="3.5" fill="#2A2F37"/><rect x="76.6" y="97" width="11" height="75" rx="3.5" fill="url(#ld)"/><rect x="95.7" y="97" width="11" height="75" rx="3.5" fill="url(#ld)"/><rect x="114.9" y="160.8" width="11" height="11.2" rx="3.5" fill="#2A2F37"/><rect x="134" y="103.8" width="11" height="68.2" rx="3.5" fill="url(#ld)"/><rect x="153.2" y="82.2" width="11" height="89.8" rx="3.5" fill="url(#ld)"/><rect x="172.3" y="71.1" width="11" height="100.9" rx="3.5" fill="url(#ld)"/><rect x="191.5" y="160.8" width="11" height="11.2" rx="3.5" fill="#2A2F37"/><rect x="210.6" y="112.8" width="11" height="59.2" rx="3.5" fill="url(#ld)"/><rect x="229.8" y="59.6" width="11" height="112.4" rx="3.5" fill="url(#ld)"/><rect x="248.9" y="160.8" width="11" height="11.2" rx="3.5" fill="#2A2F37"/><rect x="268.1" y="96.4" width="11" height="75.6" rx="3.5" fill="url(#ld)"/><rect x="287.2" y="108.9" width="11" height="63.1" rx="3.5" fill="url(#ld)"/><rect x="306.4" y="74.4" width="11" height="97.6" rx="3.5" fill="url(#ld)"/><rect x="325.5" y="160.8" width="11" height="11.2" rx="3.5" fill="#2A2F37"/><rect x="344.7" y="80.3" width="11" height="91.7" rx="3.5" fill="url(#ld)"/><rect x="363.8" y="80.4" width="11" height="91.6" rx="3.5" fill="url(#ld)"/><rect x="383" y="160.8" width="11" height="11.2" rx="3.5" fill="#2A2F37"/><rect x="402.1" y="55.3" width="11" height="116.7" rx="3.5" fill="url(#ld)"/><rect x="421.3" y="67.9" width="11" height="104.1" rx="3.5" fill="url(#ld)"/><rect x="440.4" y="49.2" width="11" height="122.8" rx="3.5" fill="url(#ld)"/><rect x="459.6" y="160.8" width="11" height="11.2" rx="3.5" fill="#2A2F37"/><rect x="478.7" y="99.1" width="11" height="72.9" rx="3.5" fill="url(#ld)"/><rect x="497.9" y="80.1" width="11" height="91.9" rx="3.5" fill="url(#ld)"/><rect x="517" y="57.2" width="11" height="114.8" rx="3.5" fill="url(#ldL)"/>
+  <path d="M5.5 91.7C8.7 91.5 18.3 91.1 24.6 90.2C31 89.2 37.4 85.3 43.8 86.2C50.2 87.1 56.6 94.3 62.9 95.8C69.3 97.3 75.7 95.3 82.1 95.1C88.5 94.9 94.9 93.2 101.2 94.5C107.6 95.9 114 101.7 120.4 103C126.8 104.3 133.2 103 139.5 102.3C145.9 101.5 152.3 100 158.7 98.6C165.1 97.2 171.5 93.3 177.8 93.9C184.2 94.6 190.6 100.9 197 102.4C203.4 104 209.7 104.1 216.1 103C222.5 102 228.9 95.9 235.3 96.1C241.7 96.3 248 103.3 254.4 104.3C260.8 105.4 267.2 102.7 273.6 102.4C280 102.1 286.3 103.2 292.7 102.5C299.1 101.7 305.5 97.2 311.9 97.7C318.3 98.2 324.6 105.1 331 105.7C337.4 106.3 343.8 102.6 350.2 101.3C356.5 99.9 362.9 96.8 369.3 97.5C375.7 98.2 382.1 105.5 388.5 105.5C394.8 105.6 401.2 99.8 407.6 97.7C414 95.5 420.4 94.6 426.8 92.7C433.1 90.7 439.5 85.3 445.9 85.7C452.3 86.2 458.7 93.8 465.1 95.4C471.4 97 477.8 95.6 484.2 95.1C490.6 94.5 497 93.6 503.4 92.1C509.7 90.7 519.3 87.4 522.5 86.4" fill="none" stroke="#B8DBFF" stroke-width="2" stroke-linecap="round"/>
+  <text x="0" y="194" fill="#5B6168" font-size="11" font-weight="600" font-family="Inter" >4 tyg.</text><text x="134" y="194" fill="#5B6168" font-size="11" font-weight="600" font-family="Inter" >3 tyg.</text><text x="268.1" y="194" fill="#5B6168" font-size="11" font-weight="600" font-family="Inter" >2 tyg.</text><text x="528" y="194" fill="#5B6168" font-size="11" font-weight="600" font-family="Inter" text-anchor="end">Ten tydzień</text>
+</svg></div>
+        <div class="load-leg"><span><i class="bar"></i>Obciążenie dnia</span><span><i class="line"></i>Średnia krocząca</span><span><i class="today"></i>Dziś</span></div>
+      </div></div>
+    </div>
+    <ul class="facts">
+      <li><b>Gotowość 0–100</b>Z HRV i tętna spoczynkowego z Apple Watch, snu i wczorajszego obciążenia — zawsze względem Twojej własnej normy.</li>
+      <li><b>Obciążenie</b>Obciążenie dnia w skali 0–21 liczone z tętna minuta po minucie (TRIMP) i stosunek obciążeń 7 do 28 dni (ACWR).</li>
+      <li><b>Sen wpisany ręcznie</b>Noc bez zegarka? Wpisz sen ręcznie — gotowość go uwzględni. To wskazówka, nie diagnoza.</li>
+    </ul>
+  </div>
+</section>
+<!-- Cytat -->
+<section class="sec quote" id="cytat" aria-label="Cytat dnia">
+  <div class="wrap">
+    <div class="stage qstage" data-tilt>
+      <figure class="testimonial-wrap lift stand-once" style="--z:90;--i:0;--stand:16deg;--r:32px">
+        <span class="qedge" aria-hidden="true"></span>
+        <div class="testimonial">
+          <span class="qm" aria-hidden="true">”</span>
+          <p class="lab"><i aria-hidden="true"></i>CYTAT DNIA</p>
+          <blockquote><p>„Siła nie bierze się ze zwycięstw. Budują ją zmagania.”</p></blockquote>
+          <figcaption class="by"><span class="who"><i aria-hidden="true"></i><b>Arnold Schwarzenegger</b></span><span>z biblioteki cytatów Karterii</span></figcaption>
+        </div>
+      </figure>
+    </div>
+  </div>
+</section>
+<!-- Seria, XP, misje -->
+<section class="sec streak" id="seria" aria-labelledby="streak-h">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow"><span class="ic"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 2.5c1.2 3.2 4.8 5.4 4.8 9.7a4.8 4.8 0 0 1-9.6 0c0-1.7.6-2.9 1.5-3.9.2 1.3.9 2.2 1.9 2.5-.5-2.3.2-5.2 1.4-8.3z" fill="currentColor"/></svg></span>SERIA<em>05</em></p>
+        <h2 class="h2" id="streak-h">Seria,<br>która nie pęka.</h2>
+      </div>
+      <p class="lede">Każdy aktywny dzień dokłada ogniwo. Siedem z rzędu daje <b>zamrożenie</b>, które uratuje serię w gorszy dzień.</p>
+    </div>
+    <div class="stage streak-stage" data-tilt role="img" aria-label="Przykładowa seria: 12 dni z rzędu, jedno zamrożenie, osiem z dziesięciu medali, poziom 7 i trzy misje dnia.">
+      <div class="lift" style="--z:30;--i:0"><div class="card">
+        <div class="sk">
+          <div class="sk-l">
+            <div class="card-h"><span class="ct">Seria</span><span class="tag"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="12" height="12" style="margin-right:5px"><path d="M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M9.5 4.5L12 7l2.5-2.5M9.5 19.5L12 17l2.5 2.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>1 ZAMROŻENIE</span></div>
+            <div class="sk-n"><b>12</b><span>dni z rzędu</span></div>
+            <div class="sk-week"><div class="wd on"><i><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Cz</div><div class="wd on"><i><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Pt</div><div class="wd frz"><i><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M9.5 4.5L12 7l2.5-2.5M9.5 19.5L12 17l2.5 2.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></i>So</div><div class="wd on"><i><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Nd</div><div class="wd on"><i><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Pn</div><div class="wd on"><i><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Wt</div><div class="wd today"><i><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" style="color:#6BB3FF"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Śr</div></div>
+            <div class="sk-meta"><span>Najdłuższa <b>34 dni</b></span><span>Aktywne dni <b>212</b></span></div>
+          </div>
+          <div class="sk-r">
+            <div class="card-h"><span class="ct">Medale</span><span class="cs num">8 z 10 zdobyte</span></div>
+            <div class="medals">
+              <div class="medal"><div class="disc"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M12 2.5c1.2 3.2 4.8 5.4 4.8 9.7a4.8 4.8 0 0 1-9.6 0c0-1.7.6-2.9 1.5-3.9.2 1.3.9 2.2 1.9 2.5-.5-2.3.2-5.2 1.4-8.3z" fill="currentColor"/></svg><span class="lv">2</span></div><p class="t">Płomień</p><p>34 dni serii</p></div>
+              <div class="medal"><div class="disc"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><rect x="2" y="9" width="3" height="6" rx="1" fill="currentColor"/><rect x="5" y="7" width="3" height="10" rx="1" fill="currentColor"/><rect x="16" y="7" width="3" height="10" rx="1" fill="currentColor"/><rect x="19" y="9" width="3" height="6" rx="1" fill="currentColor"/><rect x="8" y="10.5" width="8" height="3" fill="currentColor"/></svg><span class="lv">2</span></div><p class="t">Siłacz</p><p>48 treningów</p></div>
+              <div class="medal"><div class="disc"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><path d="M7 3h10v5.5a5 5 0 0 1-10 0z" fill="currentColor"/><path d="M7 5.5H4.5v1A3.5 3.5 0 0 0 8 10M17 5.5h2.5v1A3.5 3.5 0 0 1 16 10" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 13.5v3.5M8 21h8M9.5 17h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="lv">2</span></div><p class="t">Rekordzista</p><p>17 rekordów</p></div>
+              <div class="medal"><div class="disc"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" ><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="1.9" fill="currentColor"/></svg><span class="lv">2</span></div><p class="t">Łowca misji</p><p>36 misji</p></div>
+            </div>
+          </div>
+        </div>
+      </div></div>
+      <div class="lift" style="--z:26;--i:1"><div class="card xp">
+        <div class="card-h"><span class="ct">Poziom 7</span><span class="cs num">340 / 700 XP</span></div>
+        <div class="progress"><i style="width:48.6%"></i></div>
+        <ul class="xp-list">
+          <li><span>Rekord osobisty</span><b>+100</b></li>
+          <li><span>Trening siłowy lub tenisa</span><b>+50</b></li>
+          <li><span>Wygrany mecz</span><b>+25</b></li>
+          <li><span>Rutyna · ważenie</span><b>+10</b></li>
+          <li><span>Zadanie (5 dziennie)</span><b>+5</b></li>
+        </ul>
+        <p class="xp-note">Każdy kolejny poziom wymaga o 100 XP więcej.</p>
+      </div></div>
+      <div class="lift" style="--z:26;--i:2"><div class="card quests">
+        <div class="card-h"><span class="ct">Misje dnia</span><span class="cs num">+40 XP</span></div>
+        <div class="q done"><span class="qi"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><rect x="2" y="9" width="3" height="6" rx="1" fill="currentColor"/><rect x="5" y="7" width="3" height="10" rx="1" fill="currentColor"/><rect x="16" y="7" width="3" height="10" rx="1" fill="currentColor"/><rect x="19" y="9" width="3" height="6" rx="1" fill="currentColor"/><rect x="8" y="10.5" width="8" height="3" fill="currentColor"/></svg></span><span class="qt">Zrób trening<small><i style="width:100%"></i></small></span><span class="qx">1/1</span></div>
+        <div class="q done"><span class="qi"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><circle cx="6" cy="7" r="3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="6" cy="17" r="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4.8 7l.9.9 1.6-1.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 7h9M12 17h9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span><span class="qt">Odhacz 2 rutyny<small><i style="width:100%"></i></small></span><span class="qx">2/2</span></div>
+        <div class="q"><span class="qi"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M12 3a3 3 0 0 1 3 3H9a3 3 0 0 1 3-3z" fill="currentColor"/><path d="M5 21l2-12h10l2 12z" fill="currentColor"/></svg></span><span class="qt">Zapisz wagę<small><i style="width:0%"></i></small></span><span class="qx">0/1</span></div>
+        <p class="xp-note">Trzy nowe misje każdego dnia, po 20 XP. Zrób wszystkie, a dostaniesz bonus +30 XP.</p>
+      </div></div>
+    </div>
+    <ul class="facts">
+      <li><b>Zamrożenia</b>Za każde 7 aktywnych dni z rzędu dostajesz zamrożenie (maks. 2). Gdy opuścisz dzień, samo uratuje serię.</li>
+      <li><b>XP i poziomy</b>Punkty za treningi, rekordy, mecze, rutyny i zadania — zawsze przeliczane z historii, więc zgadzają się po każdej poprawce.</li>
+      <li><b>Medale</b>Dziesięć medali od brązu do diamentu: za serię, treningi, rekordy, wygrane mecze, nawyki i misje.</li>
+    </ul>
+  </div>
+</section>
+<!-- O nazwie -->
+<section class="sec name" id="nazwa" aria-labelledby="name-h">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow"><span class="ic"><i class="mark"></i></span>O NAZWIE<em>06</em></p>
+        <h2 class="h2" id="name-h">Skąd nazwa<br>Karteria.</h2>
+      </div>
+      <p class="lede">Od starogreckiego <span lang="grc">καρτερία</span> — wytrwałości i niezłomnego znoszenia trudu. <b>Nie chwilowy zryw, tylko codzienne wracanie.</b></p>
+    </div>
+    <div class="stage name-stage" data-tilt>
+      <div class="lift word-l" style="--z:30;--i:0"><div class="card word">
+        <p class="greek" lang="grc">καρτερία</p>
+        <p class="latin">KARTERIA</p>
+        <p class="pron">[kar-te-RI-a] · rzeczownik, rodzaj żeński · od <span lang="grc">κρατερός</span> „mocny, twardy” i <span lang="grc">κράτος</span> „siła, panowanie”</p>
+        <p class="def">Wytrwałość, cierpliwe znoszenie trudu, niezłomność — zdolność trwania przy postanowieniu, gdy ciało i nastrój mówią „dość”. Nie chwilowy zryw, tylko codzienne wracanie: na siłownię, na kort, do rutyny, do wagi.</p>
+        <p class="def-hl">Dlatego Karteria liczy dni z rzędu, a nie jednorazowe zrywy.</p>
+      </div></div>
+      <div class="lift" style="--z:34;--i:1"><article class="card fact">
+        <p class="fact-n">I</p>
+        <h3>Sokrates pod Potidają</h3>
+        <p>Alkibiades opowiada w „Uczcie” Platona, że na wyprawie pod Potidaję Sokrates chodził boso po lodzie, kiedy inni owijali nogi w filc. Grecy nazywali to właśnie karterią — nie siłą, lecz wytrwaniem.</p>
+      </article></div>
+      <div class="lift" style="--z:34;--i:2"><article class="card fact">
+        <p class="fact-n">II</p>
+        <h3>Spartańska agoge</h3>
+        <p>W spartańskim wychowaniu chłopców karteria była cnotą ćwiczoną codziennie: jeden płaszcz na cały rok, skąpe jedzenie, marsze — liczyło się, kto zniesie więcej bez słowa skargi.</p>
+      </article></div>
+      <div class="lift" style="--z:34;--i:3"><article class="card fact">
+        <p class="fact-n">III</p>
+        <h3>Stoicy: znoś i powściągaj się</h3>
+        <p>Epiktet streszczał swoją filozofię w dwóch słowach: <span lang="grc">ἀνέχου καὶ ἀπέχου</span> — znoś i powściągaj się. Karteria to pierwsza połowa tej dewizy: wytrzymać trud i zły dzień, nie tracąc kierunku.</p>
+      </article></div>
+      <div class="lift span-all" style="--z:24;--i:3"><div class="card sign">
+        <span class="tile tile-xl" aria-hidden="true"><i class="mark"></i></span>
+        <div><h3>Znak</h3><p>Pojedynczy grecki „klucz”: spirala meandra, która wchodzi do środka i tam zostaje — jak wytrwałość, która nie jest zrywem, tylko trzymaniem się drogi.</p></div>
+      </div></div>
+    </div>
+  </div>
+</section>
+<!-- Pytania -->
+<section class="sec faq" id="pytania" aria-labelledby="faq-h">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow"><span class="ic"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M9 9.2a3.1 3.1 0 1 1 4.6 2.7c-1 .6-1.6 1.2-1.6 2.4v.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="18.6" r="1.5" fill="currentColor"/></svg></span>PYTANIA<em>07</em></p>
+        <h2 class="h2" id="faq-h">Krótko i&nbsp;konkretnie.</h2>
+      </div>
+      <p class="lede">Co trzeba mieć, gdzie są dane i kiedy można zacząć.</p>
+    </div>
+    <div class="faq-list">
+      <details class="qa" open>
+        <summary><span>Kiedy Karteria będzie dostępna?</span><i aria-hidden="true"></i></summary>
+        <div class="qa-a"><p>Wkrótce — na iPhone’a i Apple Watch. Aplikacja jest w przygotowaniu i nie ma jej jeszcze w App Store, dlatego na tej stronie nie znajdziesz przycisku pobierania.</p></div>
+      </details>
+      <details class="qa">
+        <summary><span>Gdzie są moje dane?</span><i aria-hidden="true"></i></summary>
+        <div class="qa-a"><p>Na Twoim iPhonie. Karteria nie ma konta, serwera ani analityki: treningi, mecze, rutyny, zadania i serię zapisuje lokalnie na urządzeniu, bez synchronizacji z chmurą. Mecze z zegarka trafiają prosto na Twój telefon.</p><p>Dane zdrowotne aplikacja na iPhonie tylko odczytuje z aplikacji Zdrowie — za Twoją zgodą, którą cofniesz w Ustawieniach → Prywatność i ochrona → Zdrowie → Karteria. Zegarek zapisuje w Zdrowiu swoje treningi tenisa, jak każdy trening Apple Watch.</p></div>
+      </details>
+      <details class="qa">
+        <summary><span>Czego potrzebuję?</span><i aria-hidden="true"></i></summary>
+        <div class="qa-a"><p>iPhone’a z iOS 17 lub nowszym. Apple Watch z watchOS 10 jest opcjonalny: liczy punkty meczu i treningi tenisa, a jego pomiary HRV, tętna i snu zasilają gotowość. Siłownia, plan, seria i ręczne wpisywanie meczów działają bez zegarka.</p></div>
+      </details>
+      <details class="qa">
+        <summary><span>Czy gotowość to porada medyczna?</span><i aria-hidden="true"></i></summary>
+        <div class="qa-a"><p>Nie. Gotowość i obciążenie to szacunki z danych zegarka względem Twojej normy — wskazówka, nie diagnoza.</p></div>
+      </details>
+      <details class="qa">
+        <summary><span>Ta strona coś o mnie zbiera?</span><i aria-hidden="true"></i></summary>
+        <div class="qa-a"><p>Nie. Bez ciasteczek, bez analityki, bez formularzy i bez zapytań do innych serwerów — fonty i film są na tej samej stronie.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+<!-- Stopka strony (jak w filmie) -->
+<section class="foot" aria-label="Karteria">
+  <div class="wrap">
+    <p class="foot-title">Karteria</p>
+    <p class="foot-sub"><span lang="grc">καρτερία</span><span class="dot" aria-hidden="true">·</span><em>wytrwałość</em></p>
+    <div class="foot-cta-row">
+      <a class="foot-cta" href="#film-card"><span class="tile" aria-hidden="true"><i class="mark"></i></span>Zobacz film</a>
+      <p class="foot-note">Wkrótce na iPhone’a i Apple Watch</p>
+    </div>
+  </div>
+</section>
+</main>
+  </div><!-- /.page -->
+</div><!-- /.scene -->
+<!-- Karta tytułowa i film — na jasnej podłodze studia -->
+<section class="outro" id="film" aria-labelledby="film-h">
+  <div class="title-card" id="title-card">
+    <p class="pill w" style="--w:0"><span class="tile" aria-hidden="true"><i class="mark"></i></span>Karteria</p>
+    <h2 id="film-h" class="tc">
+      <span class="l1"><span class="w" style="--w:1">Wytrwałość</span> <span class="w" style="--w:2">to</span> <span class="w" style="--w:3">wracanie</span></span>
+      <span class="l2"><span class="w" style="--w:4">—</span> <span class="w" style="--w:5">codziennie.</span></span>
+    </h2>
+  </div>
+  <div class="film-wrap" id="film-card">
+    <div class="film">
+      <span class="ftile ftile-l" aria-hidden="true"><span class="tile"><i class="mark"></i></span></span>
+      <span class="ftile ftile-r" aria-hidden="true"><span class="tile"><i class="mark"></i></span></span>
+      <div class="film-frame">
+        <video id="film-video" width="1080" height="864" muted playsinline loop controls preload="none" poster="assets/film-poster.webp" aria-label="Film: 14,5-sekundowy przelot kamery nad stroną Karterii, zakończony napisem „Wytrwałość to wracanie — codziennie.”">
+          <source src="assets/karteria-flyover-1080.webm" type='video/webm; codecs="vp9, opus"'>
+          <source src="assets/karteria-flyover-1080.mp4" type='video/mp4; codecs="avc1.640028, mp4a.40.2"'>
+          <p>Twoja przeglądarka nie odtwarza wideo. <a href="assets/karteria-flyover-1080.mp4">Pobierz film (MP4, 6,7 MB)</a>.</p>
+        </video>
+        <div class="film-ui" hidden>
+          <button type="button" class="fbtn" id="film-play" aria-label="Odtwórz film"><svg aria-hidden="true" focusable="false" class="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg><svg aria-hidden="true" focusable="false" class="i-pause" viewBox="0 0 24 24"><rect x="6.5" y="5" width="4" height="14" rx="1.2" fill="currentColor"/><rect x="13.5" y="5" width="4" height="14" rx="1.2" fill="currentColor"/></svg></button>
+          <button type="button" class="fbtn fbtn-wide" id="film-sound" aria-pressed="false"><svg aria-hidden="true" focusable="false" class="i-off" viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="currentColor"/><path d="M16 9.5l5 5M21 9.5l-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><svg aria-hidden="true" focusable="false" class="i-on" viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="currentColor"/><path d="M15.5 9a4.2 4.2 0 0 1 0 6M18.2 6.5a8 8 0 0 1 0 11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Włącz dźwięk</span></button>
+          <button type="button" class="fbtn" id="film-full" aria-label="Pełny ekran" hidden><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <p class="film-dl" hidden>Ta przeglądarka nie odtworzy filmu. <a href="assets/karteria-flyover-1080.mp4">Pobierz film (MP4, 6,7 MB)</a>.</p>
+    <p class="film-cap"><b>Zobacz w ruchu.</b> 14,5 s przelotu nad Karterią — z muzyką nordycką, syntetyzowaną od zera.</p>
+  </div>
+</section>
+<footer class="floor-foot">
+  <div class="ff-in">
+    <p class="ff-brand"><span class="tile" aria-hidden="true"><i class="mark"></i></span>Karteria <span class="sep" aria-hidden="true">·</span> <span lang="grc">καρτερία</span> <span class="sep" aria-hidden="true">·</span> wytrwałość</p>
+    <nav class="ff-links" aria-label="Stopka">
+      <a href="#silownia">Funkcje</a><a href="#nazwa">O nazwie</a><a href="#pytania">Pytania</a><a href="#film-card">Film</a>
+    </nav>
+    <p class="ff-legal">© 2026 Karteria · iPhone i Apple Watch są znakami towarowymi Apple Inc. · Fonty: <a href="fonts/OFL-Inter.txt">Inter</a>, <a href="fonts/OFL-Geist.txt">Geist</a>, <a href="fonts/OFL-InstrumentSerif.txt">Instrument Serif</a> (SIL OFL 1.1)</p>
+  </div>
+</footer>
+</body>
+</html>
